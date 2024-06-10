@@ -1,0 +1,60 @@
+/* Custom CSS for select container */
+.select-container {
+    
+  }
+  
+  /* Custom CSS for select wrapper */
+  .custom-select-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Custom CSS for select element */
+  .custom-select {
+    padding: 0 2rem 0  1rem; /* Adjust padding as needed */
+    font-size: 1rem; /* Adjust font size as needed */
+    border: 2px solid #ccc; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f7f7f7; /* Background color */
+    color: #333; /* Text color */
+    appearance: none; /* Remove default appearance */
+    -webkit-appearance: none; /* For Safari */
+    outline: none; /* Remove default outline */
+    transition: border-color 0.3s ease; /* Smooth transition for border color */
+  }
+  
+  /* Custom CSS for select element when focused */
+  .custom-select:focus {
+    border-color: #007bff; /* Change border color on focus */
+  }
+  
+  /* Custom CSS for option elements */
+  .custom-option {
+    /* Maintain consistent background color for clarity */
+    background-color: #fff;
+    color: #333; /* Text color */
+    /* Employ hover effect for improved user experience */
+    cursor: pointer;
+    transition: background-color 0.2s ease; /* Adjust transition speed if needed */
+  }
+  
+  /* Custom CSS for select arrow */
+  .custom-select-arrow {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #666; /* Arrow color */
+  }
+  
+  .dropdown-toggle::after {
+    content: none;
+  }
+  
+  .dropdown-menu {
+    min-width: 4rem;
+  }

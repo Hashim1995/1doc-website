@@ -1,0 +1,27 @@
+[
+
+    {
+        "id": "1",
+        "label": "Haqqımızda",
+        "link": "section1",
+        "icon": false
+    },
+    {
+        "id": "2",
+        "label": "Həllərimiz",
+        "link": "section2",
+        "icon": false
+    },
+    {
+        "id": "3",
+        "label": "Platforma",
+        "link": "section3",
+        "icon": false
+    },
+    {
+        "id": "4",
+        "label": "Bizimlə əlaqə",
+        "link": "section4",
+        "icon": false
+    }
+]
